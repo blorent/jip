@@ -32,32 +32,34 @@ font-size : 12px;
 
 #logo {
 float : left;
-background : url('images/logo-transp150.png') no-repeat;
+background : url('images/logo-transp150_border.png') no-repeat;
 width : 200px;
 height : 140px;
 margin-left : 00px;
 }
 
 #menu {
-margin-left : 400px;
+margin-left : 300px;
 margin-top : 20px;
-width : 400px;
+width : 500px;
 height  : 80px;
 padding-top : 1px;
-background : url('images/menuBg_20p.png') no-repeat;
 }
 
-#menu ul li { float : left; display : inline; margin-right : 33px;}
+#menu ul li { float : left; display : inline; margin-right : 20px;}
 
 #menu a {
-display : inline;
+display : block;
+width : 95px;
+padding : 15px 15px 15px 20px;
+height : 60px;
 font-size : 1.5em;
 color : white;
 text-decoration : none;
 text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-#menu a:hover { color : #da4565; }
+#menu a:hover { background : url('images/menuLinkBg_20p.png'); }
 
 #menu a span {
 font-size : 0.6em;
@@ -102,4 +104,9 @@ color : #444;
     height: 300px; 
     top:  0; 
     left: 0 
-} 
+}
+
+img.floatRight {
+float : right;
+margin : 20px;
+}

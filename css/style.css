@@ -8,8 +8,8 @@ padding : 0;
 }
 
 body {
-overflow-y: hidden ! important;
-overflow-x auto ! important;
+background : #333;
+overflow-x : hidden;
 }
 
 #topBg {
@@ -18,7 +18,7 @@ width : 100%;
 z-index : 0;
 }
 
-#topBg img { width : 100% }
+#topBg img { }
 
 #mainContent{
 width : 860px;
@@ -44,7 +44,7 @@ margin-top : 20px;
 width : 400px;
 height  : 80px;
 padding-top : 1px;
-background : url('images/menuBg_30p.png') no-repeat;
+background : url('images/menuBg_20p.png') no-repeat;
 }
 
 #menu ul li { float : left; display : inline; margin-right : 33px;}

@@ -12,6 +12,10 @@ background : #333;
 overflow-x : hidden;
 }
 
+p {
+margin-top : 30px;
+}
+
 #topBg {
 position : absolute; top : 0; left:  0;
 width : 100%;
@@ -106,7 +110,28 @@ color : #444;
     left: 0 
 }
 
-img.floatRight {
+img.contactImg {
 float : right;
 margin : 20px;
+width : 329px;
 }
+
+#coordonnees {
+margin : 25px;
+padding-left : 15px;
+border-left : 3px solid #e86200;
+}
+
+#coordonnees a {
+color : #e86200;
+text-decoration : none;
+border-bottom : 1px dashed #e86200;
+}
+
+#coordonnees a:hover {
+color : #e86200;
+text-decoration : none;
+border-bottom : 1px solid #e86200;
+}
+
+

@@ -25,22 +25,29 @@
 </div>
 <div id="center">
 		
-		<h1>Contact</h1>
-		<img class="floatRight" src="images/contact.jpg" />
+		<h1>Contact - Jean-Paul Robert</h1>
 		
-		<div id="coordonnees">
-		   <p>Jean-Paul Robert</p>
-		   <p>Rue du Coquelet, 2</p>
-		   <p>5030 Gembloux</p>
-		</div>
+		<!-- Script pour prendre une des 3 images au hasard -->
+		<script type="text/javascript">
+			var randomnumber=Math.floor(Math.random()*3) + 1;
+			document.write("<img class=\"contactImg\" src=\"images/contact" + randomnumber + ".jpg\" />");
+		</script>
+		
+		<!-- Solution de rechange pour ceux qui n'auraient pas javascript -->
+		<noscript><img class="contactImg" src="images/contact2.jpg" /></noscript>
 		
 		<p>Pour tous renseignements ou demandes de devis n'h&eacute;sitez pas &agrave; nous contacter</p>
-		<p>
-		   <ul>
-		      <li>par t&eacute;l&eacute;phone au <span class="highlight">0469 69 69 69</span></li>
-		      <li>par email &agrave; l'adresse <a href="mailto:jeanpaul@robert.be">jean-paul@robert.be</a></li>
-         <ul>
-      </p>
+		
+		<div id="coordonnees">
+			<p>&raquo;&nbsp; par t&eacute;l&eacute;phone au <span class="highlight">0469 69 69 69</span></p>
+			<p>&raquo;&nbsp; par email &agrave; l'adresse <a href="mailto:jeanpaul@robert.be">jean-paul@robert.be</a></p>      
+		</div>
+		
+		<p>Vous pouvez &eacute;galement nous contacter via le formulaire suivant.  Nous vous recontacterons dans les plus brefs d&eacute;lais.</p>
+		
+		<form id="contact" action="envoi de mail">
+		<p></p>
+		</form>
 
 
 </div>

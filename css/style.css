@@ -103,16 +103,17 @@ margin-top : 5px;
     margin-left : 40px;
     margin-bottom : 20px;
     margin-top : 30px;
+    height : 100%;
 } 
  
 .pics img {  
     padding: 15px;  
     border:  1px solid #ccc;  
     background-color: #fff;  
-    width:  400px; 
-    height: 300px; 
+    /*width:  400px; 
+    height: 300px; */
     top:  0; 
-    left: 0 
+    left: 0;
 }
 
 img.contactImg {
@@ -174,6 +175,20 @@ border : 1px solid #666;
 background : #ccc;
 margin-left : 220px;
 width : 70px;
+}
+
+#rightGallery {
+width : 170px;
+text-align : center;
+float : right;
+margin-right : 0px;
+/*height : 380px;*/
+border-left : 2px solid #e86200;
+padding-left : 10px;
+}
+
+#rightGallery img {
+margin-bottom : 15px;
 }
 
 

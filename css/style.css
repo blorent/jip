@@ -87,7 +87,12 @@ border-radius: 25px;
 color : #444;
 }
 
-#center h1 { color : #E05F14; font-size : 25px; margin-bottom : 10px; }
+#center h1 {
+color : #E05F14;
+font-size : 25px;
+margin-bottom : 10px;
+margin-top : 5px;
+}
 
 .pics {  
     height:  302;  
@@ -132,6 +137,43 @@ border-bottom : 1px dashed #e86200;
 color : #e86200;
 text-decoration : none;
 border-bottom : 1px solid #e86200;
+}
+
+#coordonnees p {
+margin : 10px;
+}
+
+form#contact {
+color : #666;
+margin-top : 25px;
+}
+
+form#contact label {
+text-align : right;
+float : left;
+width : 110px;
+margin-right : 10px;
+}
+
+form#contact input {
+border : 1px solid #666;
+width : 260px;
+}
+
+form#contact textarea {
+border : 1px solid #666;
+}
+
+
+form#contact p {
+margin : 5px;
+}
+
+form#contact input.submit {
+border : 1px solid #666;
+background : #ccc;
+margin-left : 220px;
+width : 70px;
 }
 
 

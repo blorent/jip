@@ -185,10 +185,14 @@ margin-right : 0px;
 /*height : 380px;*/
 border-left : 2px solid #e86200;
 padding-left : 10px;
+margin-top : 5px;
 }
 
 #rightGallery img {
 margin-bottom : 15px;
+padding: 5px;  
+border:  1px solid #ccc;  
+background-color: #fff;  
 }
 
 
